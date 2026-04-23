@@ -1228,7 +1228,8 @@ function updateStartUI() {
   else       { md.textContent = 'HARD';   md.style.color = 'var(--red)';   }
 
   // total count preview
-  const totalQ = OPT.extra ? (QUESTIONS.length + HARD_QUESTIONS.length) : QUESTIONS.length;
+  const totalQ = 15;
+  // const totalQ = OPT.extra ? (QUESTIONS.length + HARD_QUESTIONS.length) : QUESTIONS.length;
   document.getElementById('total-count').textContent = totalQ;
 }
 
