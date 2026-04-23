@@ -1319,7 +1319,7 @@ function startQuiz() {
       copy.effectiveAnswer  = built.effectiveAnswer;  // 이번 실행에서 표시된 정답만
     }
     return copy;
-  });
+  }).slice(0, 15);
 
   currentIndex = 0;
   score = 0; correctCount = 0; partialCount = 0; wrongCount = 0;
